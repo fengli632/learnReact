@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>demo1</title>
+    <title>test2</title>
     <script type="text/javascript" src="../build/react-0.13.4.js"></script>
     <script type="text/javascript" src="../build/react-dom.js"></script>
     <script type="text/javascript" src="../build/browser.min.js"></script>
@@ -10,17 +10,9 @@
 <body>
     <div id="example"></div>
     <script type="text/babel">
-        var names = ['tom','lucy','amylee'];
-
         ReactDOM.render(
-            <div>
-            {
-                names.map(function (name){
-                    return <div>Hello, {name}!</div>
-                })
-            }
-            </div>,
-            document.getElementById('example')
+            <h1>Hello,React!</h1>,
+            document.getElementById("example")
         );
     </script>
     
